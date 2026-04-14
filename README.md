@@ -51,19 +51,19 @@ As a result: **Computational workflows that enable similar outcomes often bypass
 
  ### Key Results
 
-1. The Refusal Asymmetry
+**1. The Refusal Asymmetry**
 While models are robust against direct wet-lab requests, they frequently fail to identify the same risks when translated into a computational context:
 <img width="1322" height="622" alt="dry-wet-lab-refusal" src="https://github.com/user-attachments/assets/31bf6c65-e7b1-4e5f-8e81-a7b884729988" />
 
 > Models are highly sensitive to procedural laboratory language (wet-lab), yet they fail to recognize functionally equivalent risks when framed as bioinformatics workflows (dry-lab).
 
-2. Model-Specific "Safety Personalities"
+**2. Model-Specific "Safety Personalities"**
 <img width="1349" height="684" alt="actionability" src="https://github.com/user-attachments/assets/a74c7eb0-4fb1-4671-b4e2-f5b636f09a49" />
 
 - Gemini 2.5 Flash: Showed higher technical granularity and accuracy. However, this high capability acted as a "double-edged sword," as it provided more actionable guidance once the safety guardrails were bypassed by framing.
 - Llama 3.3 70B: Tended to provide shallower, more general responses. While it was less "actionable" due to these capability limitations, it still failed to prioritize safety in several critical technical areas.
 
-3. Distinguishing Procedural and Tactical Risks
+**3. Distinguishing Procedural and Tactical Risks**
 <img width="1235" height="633" alt="wetlab-drylab-risk" src="https://github.com/user-attachments/assets/cb1cc7c5-63e8-4a8e-ae8f-fbfcc71b08d3" />
 
 > While "dry-lab" outputs are less instantly actionable (they don't provide a physical recipe), they provide high-utility tactical foundations. They automate the expert-level "brain work" required to design or optimize a biological agent, effectively bypassing the most difficult analytical hurdles.
@@ -94,8 +94,8 @@ As advances in DNA synthesis, cloud laboratories, and agentic bioinformatic work
 
 ## Full Writeup
 
-See the full research-style writeup here:
-👉 *([Biosecurity audit writeup](https://github.com/liaw2019/llm-biosecurity-calibration/blob/main/Biosecurity-audit-llm-refusal-writeup.pdf))*
+Full research-style writeup:
+*([Biosecurity audit writeup](https://github.com/liaw2019/llm-biosecurity-calibration/blob/main/Biosecurity-audit-llm-refusal-writeup.pdf))*
 
 ---
 
