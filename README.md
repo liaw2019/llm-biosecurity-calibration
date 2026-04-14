@@ -83,7 +83,7 @@ While models are robust against direct wet-lab requests, they frequently fail to
 * **Boundary effect:**
   Refusal in computational-related domain are more likely when prompts include explicit real-world harm (e.g., symptoms, infection), but not when framed purely as technical workflows.
 
----
+
 ## Why This Matters
 
 Biology is becoming increasingly computational.
@@ -97,7 +97,6 @@ As advances in DNA synthesis, cloud laboratories, and agentic bioinformatic work
 Full research-style writeup:
 *([Biosecurity audit writeup](https://github.com/liaw2019/llm-biosecurity-calibration/blob/main/Biosecurity-audit-llm-refusal-writeup.pdf))*
 
----
 
 ## Responsible Use
 
@@ -106,22 +105,19 @@ No actionable experimental protocols or sensitive biological procedures are incl
 
 The goal is to study safety calibration, not to enable misuse.
 
----
-
 ## Limitations
 
 * Small sample size (exploratory study)
 * Manual evaluation of responses
 * Results reflect current model behavior and tooling constraints
 
----
 
 ## Future Work
 
 * Further understanding through mechanistic interpretability
 * Automated scoring frameworks
 
----
+
 
 ## Tags
 
